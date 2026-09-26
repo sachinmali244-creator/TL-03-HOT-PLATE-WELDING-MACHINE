@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Machine Digital Passport | HOT PLATE WELDING (MID SUV) </title>
+<title>Machine Digital Passport | HOT PLATE WELDING MACHINE (MID SUV) </title>
 
 <style>
 
@@ -296,6 +296,208 @@ body{
 }
 
 
+}/* =========================================================
+   MANUFACTURER CONTACT CARD - HIGH CONTRAST DESIGN
+========================================================= */
+
+.manufacturer-contact{
+    position:relative;
+    max-width:950px;
+    margin:35px auto;
+    padding:0;
+
+    background:#ffffff;
+
+    border:1px solid #d7dee8;
+    border-radius:18px;
+
+    box-shadow:
+        0 8px 25px rgba(20,40,70,0.14),
+        0 2px 6px rgba(20,40,70,0.08);
+
+    overflow:hidden;
+
+    font-family:inherit;
+}
+
+/* =========================================================
+   CARD HEADER
+========================================================= */
+
+.manufacturer-contact h2{
+    margin:0;
+    padding:18px 22px;
+
+    text-align:left;
+
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:0.5px;
+
+    color:#ffffff;
+
+    background:linear-gradient(
+        135deg,
+        #123b67,
+        #1769aa
+    );
+
+    border-bottom:4px solid #f2b233;
+
+    text-shadow:none;
+}
+
+/* =========================================================
+   CONTACT INFORMATION
+========================================================= */
+
+.contact-item{
+    display:flex;
+    align-items:center;
+
+    margin:0;
+    padding:14px 20px;
+
+    min-height:52px;
+
+    color:#1f2937;
+
+    background:#ffffff;
+
+    border-bottom:1px solid #e5e9ef;
+
+    font-size:14px;
+    line-height:1.5;
+
+    transition:
+        background 0.2s ease,
+        padding-left 0.2s ease;
+}
+
+/* Alternate rows */
+
+.contact-item:nth-child(even){
+    background:#f6f9fc;
+}
+
+/* Hover */
+
+.contact-item:hover{
+    background:#eaf4ff;
+    padding-left:25px;
+}
+
+/* =========================================================
+   LABEL
+========================================================= */
+
+.contact-item strong{
+    display:inline-block;
+
+    width:165px;
+    min-width:165px;
+
+    color:#123b67;
+
+    font-size:13px;
+    font-weight:700;
+
+    letter-spacing:0.3px;
+}
+
+/* =========================================================
+   VALUE
+========================================================= */
+
+.contact-item span{
+    color:#1f2937;
+}
+
+/* =========================================================
+   CLICKABLE CONTACT LINKS
+========================================================= */
+
+.contact-item a{
+    color:#075ea8;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    border-bottom:1px dashed #075ea8;
+
+    transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.contact-item a:hover{
+    color:#d17b00;
+    border-color:#d17b00;
+}
+
+/* =========================================================
+   CARD FOOTER / DIGITAL IDENTIFIER
+========================================================= */
+
+.manufacturer-contact::after{
+    content:"OEM / MANUFACTURER SUPPORT";
+
+    display:block;
+
+    padding:8px 20px;
+
+    text-align:right;
+
+    background:#f1f4f8;
+
+    color:#6b7280;
+
+    font-size:9px;
+    font-weight:700;
+
+    letter-spacing:1.5px;
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:600px){
+
+    .manufacturer-contact{
+        margin:25px 12px;
+        border-radius:14px;
+    }
+
+    .manufacturer-contact h2{
+        padding:16px;
+        font-size:17px;
+    }
+
+    .contact-item{
+        display:block;
+        padding:12px 16px;
+    }
+
+    .contact-item strong{
+        display:block;
+
+        width:auto;
+        min-width:auto;
+
+        margin-bottom:4px;
+
+        font-size:12px;
+    }
+
+    .contact-item:hover{
+        padding-left:20px;
+    }
+}
+
+
+   
 /* =========================================================
    MAIN CONTAINER
 ========================================================= */
@@ -1754,7 +1956,7 @@ body{
         </div>
 
         <div class="welcome-machine">
-         HOT PLATE WELDING (MID SUV)
+       HOT PLATE WELDING MACHINE (MID SUV)
         </div>
 
         <div class="loading">
@@ -1852,7 +2054,7 @@ body{
             </div>
 
             <div class="value">
-        HOT PLATE WELDING (MID SUV) 
+     HOT PLATE WELDING MACHINE (MID SUV)
             </div>
 
         </div>
@@ -1865,7 +2067,7 @@ body{
             </div>
 
             <div class="value">
-               HOT PLATE WELDING (MID SUV)
+            HOT PLATE WELDING MACHINE (MID SUV)
             </div>
 
         </div>
@@ -1873,13 +2075,43 @@ body{
 
         <div class="info-box">
 
-            <div class="label">
-                Manufacturer
-            </div>
+         <!-- ================= MANUFACTURER CONTACT ================= -->
 
-            <div class="value">
-             FI AUTOMATION
-            </div>
+<section class="manufacturer-contact">
+
+    <h2>📞 Manufacturer Contact Details</h2>
+
+    <div class="contact-item">
+        <strong>Manufacturer:</strong>
+        F.I. AUTOMAZIONE S.R.L
+    </div>
+
+    <div class="contact-item">
+        <strong>Contact Person:</strong>
+        MR. Andrea Petrucci / MR.Simone Roccini
+    </div>
+
+    <div class="contact-item">
+        <strong>Mobile:</strong>
+        <a href="tel:+91XXXXXXXXXX">
+           +39 3474577720 / +39 3773237495
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <strong>Email:</strong>
+        <a href="mailto:example@company.com">
+            a.petrucci@fiautomazione.com
+           sgallo@fiautomazione.com
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <strong>Address:</strong>
+        Italy
+    </div>
+
+</section>
 
         </div>
 
@@ -2153,7 +2385,7 @@ body{
             <div
                 class="parameter-counter"
                 id="parameterCounter">
-                1 / 10
+                1 / 5
             </div>
 
             <button
